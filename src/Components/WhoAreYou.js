@@ -12,7 +12,6 @@ export default function WhoAreYou() {
 
   return (
     <Container className='p-3'>
-        <h3>Who Are You?</h3>
         {whoAmI === null ? <SelectIdentity 
         iAmHead={() => setWhoAmI('head')} 
         iAmFamily={() => setWhoAmI('family')} 

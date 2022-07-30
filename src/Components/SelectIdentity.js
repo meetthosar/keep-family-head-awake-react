@@ -4,6 +4,7 @@ import { Col, Row, Card, Button } from 'react-bootstrap';
 export default function SelectIdentity(props) {
   return (
         <Row>
+            <h3>Who Are You?</h3>
             <Col>
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src="images/glasses-and-mustache.png" />
